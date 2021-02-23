@@ -1,0 +1,29 @@
+.leftbar {
+    background-color: #F8F8F8;
+    width: 500px;
+    padding: 4rem 6rem;
+    border-radius: 15px;
+}
+
+.leftbar__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.filter {
+
+}
+
+.filter .option__input {
+
+}
+
+.result {
+
+}
+
+.result .option__input {
+
+}

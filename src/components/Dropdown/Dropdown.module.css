@@ -1,0 +1,40 @@
+.checkboxlist__container {
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.dropdown__container {
+    width: 200px;
+}
+
+.checkBoxfield__container {
+    background-color: #fff;
+    margin-top: 5px;
+    box-shadow: 5px 5px 1.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.checkboxlist__container::-webkit-scrollbar {
+    width: 6px;
+    cursor: pointer;
+  }
+
+.checkboxlist__container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.103);
+  }
+
+.checkboxlist__container::-webkit-scrollbar-thumb {
+    background-color: rgb(199, 199, 199);
+    border-radius: 50px;
+    
+  }
+
+
+.button__container {
+    height: 60px;
+    border-top: 1px solid var(--border);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
